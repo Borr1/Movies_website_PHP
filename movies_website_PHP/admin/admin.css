@@ -1,0 +1,49 @@
+body {
+    background-image: url("images.jpg");
+  }
+
+.header{
+    width: 100%;
+    height: 120px;
+    background: yellow;
+    color: white;
+}
+.sidebar{
+    margin-top: 200px;
+    margin-left: 200px;
+    background:yellow;
+    float: left;
+}
+.main{
+    display: flex;
+   flex-direction: column;
+}
+ul li
+{
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
+ul li:hover
+{
+    background-color: red;
+    color: yellow;
+
+}
+.logo1{
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 800px;
+
+}
+.logo2
+{
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 750px;
+}
+.data{
+    height: 700px;
+    background-color: red;
+}
